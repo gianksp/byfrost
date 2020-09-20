@@ -1,0 +1,238 @@
+
+> byfrost@1.0.0 start /Users/giancarlosanchez/Desktop/byfrost
+> twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js
+
+ ›   Error: Missing 1 required arg:
+ ›   phone-number  The SID or E.164 formatted phone number you wish to update.
+ ›   See more help with --help
+Express server listening on port 3101
+
+> byfrost@1.0.0 start /Users/giancarlosanchez/Desktop/byfrost
+> twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js
+
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! byfrost@1.0.0 start: `twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the byfrost@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/giancarlosanchez/.npm/_logs/2020-09-20T13_44_01_357Z-debug.log
+ ›   Error: Missing 1 required arg:
+ ›   phone-number  The SID or E.164 formatted phone number you wish to update.
+ ›   See more help with --help
+
+> byfrost@1.0.0 start /Users/giancarlosanchez/Desktop/byfrost
+> twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js
+
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! byfrost@1.0.0 start: `twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the byfrost@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/giancarlosanchez/.npm/_logs/2020-09-20T13_44_30_584Z-debug.log
+ ›   Error: Missing 1 required arg:
+ ›   phone-number  The SID or E.164 formatted phone number you wish to update.
+ ›   See more help with --help
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+ ›   Error: Missing 1 required arg:
+ ›   phone-number  The SID or E.164 formatted phone number you wish to update.
+ ›   See more help with --help
+
+> byfrost@1.0.0 start /Users/giancarlosanchez/Desktop/byfrost
+> twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js 
+
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! byfrost@1.0.0 start: `twilio phone-numbers:update ${PHONE} --sms-url="http://localhost:3101/sms" & node server.js `
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the byfrost@1.0.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/giancarlosanchez/.npm/_logs/2020-09-20T13_47_04_647Z-debug.log
+ ›   Error: Missing 1 required arg:
+ ›   phone-number  The SID or E.164 formatted phone number you wish to update.
+ ›   See more help with --help
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+ ›   Error: Missing 1 required arg:
+ ›   phone-number  The SID or E.164 formatted phone number you wish to update.
+ ›   See more help with --help
+SID                                 Result   SMS URL                          
+PN43a2cb757ce385bb2783885763ffc0d1  Success  https://e3cc3d13cd5b.ngrok.io/sms
+ngrok is running. Open http://127.0.0.1:4040 to view tunnel activity.
+Press CTRL-C to exit.
+events.js:288
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::3101
+    at Server.setupListenHandle [as _listen2] (net.js:1309:16)
+    at listenInCluster (net.js:1357:12)
+    at Server.listen (net.js:1445:7)
+    at Object.<anonymous> (/Users/giancarlosanchez/Desktop/byfrost/server.js:21:24)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+    at internal/main/run_main_module.js:18:47
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1336:8)
+    at processTicksAndRejections (internal/process/task_queues.js:84:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 3101
+}
+Incoming message from +353834733380: t
