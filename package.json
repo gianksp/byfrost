@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "npm -g install twilio; yes | twilio login ${TWILIO_ACCOUNT_SID} --auth-token=${TWILIO_AUTH_TOKEN} -p docker -f",
+    "prepare": "npm -g install twilio-cli; yes | twilio login ${TWILIO_ACCOUNT_SID} --auth-token=${TWILIO_AUTH_TOKEN} -p docker -f",
     "serve": "nohup twilio phone-numbers:update ${PHONE} --sms-url=\"http://localhost:3101/sms\" &",
     "start": "nohup node server &"
   },
